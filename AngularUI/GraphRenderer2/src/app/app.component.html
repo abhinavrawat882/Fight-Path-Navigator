@@ -1,0 +1,62 @@
+<mat-toolbar>
+  <span>Flight Navigator Dashboard</span>
+  <span class="spacer"></span>
+</mat-toolbar>
+<div class="row">
+  <div class="col borderRight" >
+    <h2>Flight Details: </h2>
+    <h2>From: Dehradun</h2>
+    <h2>To: Bangalore</h2>
+    <h2>Time: 12:37</h2>
+  </div>
+  <div class="col">
+    <div class="weather-grid scrollable">
+      <div *ngFor="let row of weatherData;let i =index" class="weather-row">
+        <div *ngFor="let block of row;let j =index" class="weather-block"
+        [ngClass]="{'source': i === source.i && j === source.j,
+                  'destination': i === destination.i && j === destination.j,
+                  'path': block.isPath== true}">
+    
+          <mat-icon > {{getWeatherIconClass(block.weatherCondition)}}</mat-icon>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div>
+      <h2>Legend</h2>
+      <div  class="weather-row">
+      
+        Clear: <mat-icon>{{getWeatherIconClass('Clear')}}</mat-icon>
+      </div>
+        <div  class="weather-row">
+        Partly Cloudy: <mat-icon>{{getWeatherIconClass('Partly Cloudy')}}</mat-icon>
+      </div>
+      <div  class="weather-row">
+        Cloudy: <mat-icon>{{getWeatherIconClass('Cloudy')}}</mat-icon>
+      </div>
+      <div  class="weather-row">
+        Rainy: <mat-icon>{{getWeatherIconClass('Rainy')}}</mat-icon>
+      </div>
+      <div  class="weather-row">
+        ThunderStorm: <mat-icon>{{getWeatherIconClass('ThunderStorm')}}</mat-icon>
+      </div>
+      <div  class="weather-row">
+        Path: <div style="background-color: green; width:18px;height: 18px;  margin-left: 10px;"><mat-icon></mat-icon></div>
+      </div>
+      <div  class="weather-row">
+        Source: <div style="background-color: rgb(0, 92, 128); width:18px;height: 18px;  margin-left: 10px;"><mat-icon></mat-icon></div>
+      </div>
+      <div  class="weather-row">
+        Path: <div style="background-color: rgb(255, 0, 242); width:18px;height: 18px;  margin-left: 10px;"><mat-icon></mat-icon></div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+  
+  
+
+
