@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\abhinraw\\Documents\\AbhinavBackup\\Code\\DotNetAPICode\\AirTrafficAPI\\AirTrafficAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\abhinraw\\Documents\\AbhinavBackup\\Code\\DotNetAPICode\\AirTrafficAPI\\AirTrafficAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\abhinraw\\Documents\\AbhinavBackup\\Code\\DotNetAPICode\\AirTrafficAPI\\AirTrafficAPI.csproj",
+        "projectName": "AirTrafficAPI",
+        "projectPath": "C:\\Users\\abhinraw\\Documents\\AbhinavBackup\\Code\\DotNetAPICode\\AirTrafficAPI\\AirTrafficAPI.csproj",
+        "packagesPath": "C:\\Users\\abhinraw\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abhinraw\\Documents\\AbhinavBackup\\Code\\DotNetAPICode\\AirTrafficAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\abhinraw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[32.0.3, )"
+            },
+            "CsvHelper.Excel.Core": {
+              "target": "Package",
+              "version": "[27.2.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

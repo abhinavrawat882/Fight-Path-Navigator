@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "yWkFSdWoP1we1JU3aBntti/0KT92ox/sYcb3/vg9pVtbfLIa6F2ZR104T1ivKocz0nLl7zaR5xzxqFB6VWmbng==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\abhinraw\\Documents\\AbhinavBackup\\Code\\DotNetAPICode\\AirTrafficAPI\\AirTrafficAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\abhinraw\\.nuget\\packages\\closedxml\\0.95.4\\closedxml.0.95.4.nupkg.sha512",
+    "C:\\Users\\abhinraw\\.nuget\\packages\\csvhelper\\32.0.3\\csvhelper.32.0.3.nupkg.sha512",
+    "C:\\Users\\abhinraw\\.nuget\\packages\\csvhelper.excel.core\\27.2.1\\csvhelper.excel.core.27.2.1.nupkg.sha512",
+    "C:\\Users\\abhinraw\\.nuget\\packages\\documentformat.openxml\\2.15.0\\documentformat.openxml.2.15.0.nupkg.sha512",
+    "C:\\Users\\abhinraw\\.nuget\\packages\\excelnumberformat\\1.0.10\\excelnumberformat.1.0.10.nupkg.sha512",
+    "C:\\Users\\abhinraw\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\abhinraw\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\abhinraw\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\abhinraw\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\abhinraw\\.nuget\\packages\\microsoft.win32.systemevents\\4.5.0\\microsoft.win32.systemevents.4.5.0.nupkg.sha512",
+    "C:\\Users\\abhinraw\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\abhinraw\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\abhinraw\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\abhinraw\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "C:\\Users\\abhinraw\\.nuget\\packages\\system.drawing.common\\4.5.0\\system.drawing.common.4.5.0.nupkg.sha512",
+    "C:\\Users\\abhinraw\\.nuget\\packages\\system.io.packaging\\4.7.0\\system.io.packaging.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

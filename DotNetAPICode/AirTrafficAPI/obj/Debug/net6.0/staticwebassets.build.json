@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "bklx9/IbmfPPSIQdUTsI1CbTzC1f9zXgnBOihcJXKbQ=",
+  "Source": "AirTrafficAPI",
+  "BasePath": "_content/AirTrafficAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
